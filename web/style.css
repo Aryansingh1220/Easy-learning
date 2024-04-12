@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+    scroll-behavior: smooth;
+}
+
+body{
+     background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.navbr{
+    color: rgb(1, 10, 10);
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0%;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    color: rgb(46, 100, 193);
+}
+.navdiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    display:inline;
+    margin: 2vh;
+    font-size: 2.2vh;
+    color: white;
+    
+    
+}
+ul a{
+    color:white;
+    font-size: larger;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Urbanist', sans-serif;
+}
+ 
+
+ul a:hover{
+    color:#00baff;
+    font-size: 22px;
+}
+#but{
+    background-color: rgb(222, 20, 151);
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 5vh;
+    padding: 5px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+
+}
+#but:hover{
+    font-size: 27px;
+    color:black;
+}
+
+section{
+    padding:10px;
+    width: 170vh;
+    height:65vh;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    text-shadow: -2px 3px 5px rgb(5, 4, 4);
+    text-align: center;
+}
+#ee{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    text-shadow: -2px 4px 5px rgb(71, 10, 137) ;
+    letter-spacing: 2px;
+}
+.page{
+    border: px solid blue;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    display: inline-flex;
+    margin: 8vh;
+    margin-top: -10vh;
+    margin-left: 13vh;
+    align-items: center;
+    border-image: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%)3;
+}
+.page1{
+    background-image: url( https://i.pinimg.com/564x/c8/d4/bf/c8d4bfee165592ade90e026b24d25864.jpg);
+    background-size: cover;
+
+    
+}
+.page2{
+    background-image: url(phy.webp);
+    background-size:cover;
+}
+.page3{
+    background-image: url(chem.jpg);
+    background-size: contain;
+}
+section2 a{
+    color: white;
+    border: 0px solid;
+    background-image: linear-gradient(to right top, #0a0a0b, #232148, #4b2f84, #8831bc, #d500ea);
+
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px 1px rgb(238, 238, 241); 
+    margin: 80px;
+    margin-top: 250px;
+     padding: 10px;
+     font-family: cursive;
+     text-decoration: none;
+     font-weight: 900;
+
+     
+}
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+  
+#us{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    background-image: linear-gradient(to top, #04080e, #14151a, #1f1f24, #2b292e, #373338);     
+}
+#us a{
+    color: white;
+    font-style: italic;
+
+}

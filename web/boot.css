@@ -1,0 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans:ital,wght@1,600&family=Raleway:ital,wght@1,200&family=Urbanist:wght@800&display=swap');
+
+
+.navbar-brand{
+    font-family: 'DM Serif Display', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Urbanist', sans-serif;
+}
